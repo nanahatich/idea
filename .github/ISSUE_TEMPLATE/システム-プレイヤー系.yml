@@ -1,8 +1,7 @@
 name: システム：プレイヤー系
-about: 一旦テスト
 title: "【システム:プレイヤー系】 <タイトルを入力>"
-labels: ''
-assignees: ''
+labels: ""
+assignees: ""
 
 body:
 - type: markdown
