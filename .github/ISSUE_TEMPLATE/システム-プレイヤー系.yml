@@ -1,0 +1,21 @@
+name: システム：プレイヤー系
+about: 一旦テスト
+title: "【システム:プレイヤー系】 <タイトルを入力>"
+labels: ''
+assignees: ''
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## タイトル
+- type: input
+  id: Title
+  attributes:
+    label: 内容
+    description: 実装したいアイデアの内容を書いてください。
+- type: textarea
+  id: Description
+  attributes:
+    label: 説明
+    description: 実装したいアイデアの詳細を書いてください。
