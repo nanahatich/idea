@@ -6,7 +6,7 @@ description: "新しくアイデアがある方はこちら"
 
 body:
 - type: markdown
-    attributes:
+  attributes:
     value: |
       ## 下記を記入してください
 - type: input
