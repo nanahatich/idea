@@ -15,7 +15,7 @@ body:
     label: 内容
     description: 実装したいアイデアの内容を書いてください。
 - type: textarea
-  id: Title
+  id: feature
   attributes:
     label: 内容
     description: 実装したいアイデアの特徴やシナジー、追加することによるメリットを書いてください。
