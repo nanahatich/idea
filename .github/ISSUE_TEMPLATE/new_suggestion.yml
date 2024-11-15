@@ -12,8 +12,8 @@ body:
 - type: input
   id: Title
   attributes:
-    label: 内容
-    description: 実装したいアイデアの内容を記載してください。
+    label: 概要
+    description: 実装したいアイデアの概要を記載してください。
 - type: textarea
   id: feature
   attributes:
