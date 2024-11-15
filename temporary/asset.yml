@@ -9,11 +9,6 @@ body:
   attributes:
     value: |
       ## タイトル
-- type: input
-  id: Title
-  attributes:
-    label: 内容
-    description: 
 - type: textarea
   id: feature
   attributes:
@@ -30,6 +25,6 @@ body:
     label: 優先度
     description: この機能の実装優先度を選択してください。
     options:
-      - 高(最優先、次のバージョンで実装)
+      - 高(最優先、現在のバージョンで実装)
       - 中(次のバージョン頃で実装予定)
       - 低(完成版近くに実装できていればok)
