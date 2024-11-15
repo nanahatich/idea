@@ -8,7 +8,6 @@ body:
 - type: markdown
   attributes:
     value: |
-      ## タイトル
 - type: input
   id: Title
   attributes:
