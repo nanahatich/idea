@@ -1,0 +1,35 @@
+name: 既存仕様の追加提案
+title: "【改善】 <タイトルを入力>"
+description: "既存の仕様を変更したり、追加したい場合はこちら"
+#labels: " "
+#assignees: " "
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## タイトル
+- type: input
+  id: Title
+  attributes:
+    label: 内容
+    description: 変える元となる要素を記載してください。
+- type: textarea
+  id: feature
+  attributes:
+    label: 内容
+    description: 変更/追加したい内容を記載してください。
+- type: textarea
+  id: Description
+  attributes:
+    label: 説明
+    description: 変更/追加する理由を記載してください。
+- type: dropdown
+  id: priority
+  attributes:
+    label: 優先度
+    description: この機能の実装優先度を選択してください。
+    options:
+      - 高(最優先、次のバージョンで実装)
+      - 中(次のバージョン頃で実装予定)
+      - 低(完成版近くに実装できていればok)

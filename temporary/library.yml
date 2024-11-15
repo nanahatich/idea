@@ -1,0 +1,30 @@
+name: 汎用処理作成要望
+title: "【ライブラリ系】 <タイトルを入力>"
+description: "作ってほしい汎用処理などがあればこちら"
+#labels: " "
+#assignees: " "
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## タイトル
+- type: input
+  id: Title
+  attributes:
+    label: 内容
+    description: 実装してほしい汎用処理の概要を記載してください。
+- type: textarea
+  id: Description
+  attributes:
+    label: 説明
+    description: 実装してほしい汎用処理の理由を記載してください。
+- type: dropdown
+  id: priority
+  attributes:
+    label: 優先度
+    description: この機能の実装優先度を選択してください。
+    options:
+      - 高(最優先、次のバージョンで実装)
+      - 中(次のバージョン頃で実装予定)
+      - 低(完成版近くに実装できていればok)
