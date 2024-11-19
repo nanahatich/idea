@@ -9,11 +9,6 @@ body:
   attributes:
     value: |
       ## 下記を記入してください
-- type: input
-  id: Title
-  attributes:
-    label: 概要
-    description: 実装したいアイデアの概要を記載してください。
 - type: textarea
   id: feature
   attributes:

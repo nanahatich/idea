@@ -1,5 +1,5 @@
 name: 汎用処理作成要望
-title: "【ライブラリ系】 <タイトルを入力>"
+title: "【ライブラリ系】 "
 description: "作ってほしい汎用処理などがあればこちら"
 #labels: " "
 #assignees: " "
@@ -8,14 +8,14 @@ body:
 - type: markdown
   attributes:
     value: |
-      ## タイトル
+      ## 下記を記入してください
 - type: input
-  id: Title
+  id: title
   attributes:
     label: 内容
     description: 実装してほしい汎用処理の概要を記載してください。
 - type: textarea
-  id: Description
+  id: description
   attributes:
     label: 説明
     description: 実装してほしい汎用処理の理由を記載してください。
